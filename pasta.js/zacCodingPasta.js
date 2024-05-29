@@ -29,12 +29,7 @@ function cocinaTodo() {
     console.log(instruccionesSencillas[i] + " hecho");
   }
 
-  console.log(
-    "añadir " +
-      cantidadTotal(pasta.cantidadPp, personas) +
-      " gramos de " +
-      pasta.tipo
-  );
+  console.log("añadir " + cantidadTotal(pasta.cantidadPp, personas) + " gramos de " + pasta.tipo);
 
   console.log(estaYa(tiempo));
 
